@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    
+}
+body { 
+    background-color: #333
+}
+/* header */
+header { 
+    background-color: rgba(67, 67, 67, 90%);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+header nav { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: inter;
+    padding: 10px;
+}
+header nav a { 
+    text-decoration: none;
+    color: #AEAEAE;
+    font-size: 20px;
+    transition: .2s;
+}
+header nav a:hover { 
+    font-size: 21px;
+}
+header nav h1 { 
+    color: #fff;
+    font-weight: 300;
+    font-size: 28px;
+}
+header nav .cabinet { 
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+header nav input { 
+    border: none;
+    background-color: #797979;
+    width: 419px;
+    height: 36px;
+    border-radius: 10px;
+    color: #fff;
+}
+/* main */
+.main { 
+    background-image: url(imgs/imgs-index/5000869-snowfall-tv-shows-hd-4k\ 1.png);
+    /* height: 1080px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.main .card { 
+    width: 400px;
+    height: 580px;
+    text-align: center;
+    background-color: rgba(67, 67, 67, 79%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    padding: 60px 30px;
+    margin:50px;
+    margin-top:100px ;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+.main .card .text h2 { 
+    color: #fff;
+    font-size: 40px;
+    font-family: inter;
+    font-weight: 500;
+}
+.main .card .text { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .card .text p { 
+    font-size: 20px;
+    color: #989797;
+    font-family: inter;
+}
+.main .card p { 
+    font-size: 20px;
+    color: #fff;
+    font-family: inter;
+    text-align: center;
+}
+.main .card button,
+.main .card_and_btn button,
+.card_1 button{ 
+    padding: 20px 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4C4B4B;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.main .card_and_btn button:hover,
+.card_1 button:hover { 
+    background-color: #EB2E2E;
+    padding: 20px 10px;
+}
+.main .card_and_btn { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+/* Buttons */
+.buttons { 
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.buttons button { 
+    padding: 40px 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4C4B4B;
+    color: #fff;
+    text-align: center;
+    font-family: inter;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+.buttons button:hover { 
+    padding: 40px 85px;
+    background-color: #EB2E2E;
+}
+/* CARDS */
+.cards h1 { 
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    font-family: inter;
+}
+.card_1 h2 { 
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+    font-family: inter;
+}
+.allCards { 
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
+    height: 750px;
+    z-index: 1;
+
+}
+.cards_back { 
+    z-index: 2;
+    background-color: rgba(70,70,70,75%);
+}
+.cards_slider { 
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.card_1 img { 
+    width: 480px;
+    height: 631px;
+}
+.cards { 
+    background-color: rgba(70,70,70,45%);
+    background-image: url(imgs/imgs-index/image\ 4.png);
+    z-index: 1;
+    background-size: cover; 
+}
+#btnNazad { 
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 72px;
+    color: #fff;
+    font-weight: 300;
+    transition: .2s;
+ } 
+
+#btnVpered { 
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 72px;
+    color: #fff;
+    font-weight: 300;
+    transition: .2s;
+}
+#btnVpered:hover,
+#btnNazad:hover { 
+    color:#EB2E2E
+}
+#card_1 { 
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+}
+#card_1_hover { 
+    border:1px solid rgba(67, 67, 67, 89%);
+    /* padding: 20px 10px; */
+    background-color: rgba(67, 67, 67, 89%);
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 470px;
+    transition: .2s;
+    z-index: 4;
+    position: relative;
+    height: 1000px;
+    cursor: pointer;
+}
+.card_p { 
+    color: #c1c1c1;
+    font-size: 24px;
+    font-family: inter;
+    display: flex;
+    justify-content: space-between;
+}
+.card_text { 
+    color: #c1c1c1;
+    font-size: 32px;
+    font-family: inter;
+    text-align: center;
+    padding-top: 20px;
+}
+.card_info { 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card_1 button { 
+    margin-top: 20px;
+}
+
+#card_2_hover,
+#card_3_hover { 
+    border:1px solid rgba(67, 67, 67, 89%);
+    padding: 0px 0px;
+    background-color: rgba(67, 67, 67, 89%);
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 470px;
+    transition: .2s;
+    cursor: pointer;
+    z-index: 4;
+    position: relative;
+    height: 1000px;
+}
+#card_2, 
+#card_3 { 
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+/* BEST */
+.best_mark { 
+    background-image: url(imgs/imgs-index/image\ 5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 887px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.best_h2 { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.best_h2 h2 { 
+    color: #fff;
+    font-size: 62px;
+    font-family: inter;
+    font-weight: 400;
+    padding-top: 80px;
+}
+.best_h2 h2:last-child { 
+    font-size: 40px;
+}
+.best_info { 
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.best_info p { 
+    color: #fff;
+    text-align: right;
+    font-size: 24px;
+    font-family: inter;
+    font-weight: 400;
+    width: 900px;
+    height: 400px;
+}
+.best_info button { 
+    padding: 40px 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4C4B4B;
+    color: #fff;
+    text-align: center;
+    font-family: inter;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+.best_info button:hover { 
+    background-color:#EB2E2E;
+    padding: 40px 90px;
+}
+/* TOP CARDS */
+.top { 
+    background-image: url(imgs/imgs-index/top_cards/image6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top h2 { 
+    text-align: center;
+    color: #fff;
+    font-family: inter;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.top_cards { 
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: rgba(70, 70, 70, 70%);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.top_cards .top_cards_first { 
+    display: flex;
+    justify-content: space-around;
+}
+.top .top_button { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.top .top_button button { 
+    padding: 30px 80px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #4C4B4B;
+    color: #fff;
+    text-align: center;
+    font-family: inter;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+.top .top_button button:hover { 
+    background-color:#EB2E2E;
+    padding: 30px 90px;
+}
+/* FOOTER */
+footer { 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* padding-top: 50px; */
+}
+footer .footer_text { 
+    width: 300px;
+}
+.footer_text p { 
+    color: #929292;
+    font-family: inter;
+    font-size: 24px;
+    text-align: right;
+}
+footer h2 { 
+    color: #fff;
+    font-size: 32px;
+    font-family: inter;
+    font-weight: 400;
+}
+footer a { 
+    color: #929292;
+    font-size: 24px;
+    font-family: inter;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+footer a:hover { 
+    font-size: 25px;
+}
+.help,
+.onas { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_text { 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onas_img { 
+    display: flex;
+    gap: 20px;
+}
